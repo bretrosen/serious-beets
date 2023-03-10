@@ -53,20 +53,13 @@
     font-weight: 600;
 }
 
-.nav_el_recipes {
-    margin: 35px 15px 0 15px;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.recipe_dropdown {
+.dropdown {
     display: inline-block;
     position: relative;
     top: 35px;
 }
 
-.recipe_dropdown_content {
+.dropdown_content {
     display: none;
     position: absolute;
     top: 45px;
@@ -77,44 +70,11 @@
     z-index: 100;
 }
 
-.recipe_dropdown:hover .recipe_dropdown_content {
+.dropdown:hover .dropdown_content {
     display: block;
 }
 
-.recipe_dropdown_content a {
-    display: block;
-    color: var(--main-bg-color);
-    padding: 5px;
-    text-decoration: none;
-    margin-top: 20px;
-}
-
-.recipe_dropdown_content a:hover {
-    text-decoration: underline;
-}
-
-.how_to_dropdown {
-    display: inline-block;
-    position: relative;
-    top: 35px;
-}
-
-.how_to_dropdown_content {
-    display: none;
-    position: absolute;
-    top: 45px;
-    width: 230px;
-    overflow: auto;
-    box-shadow: 4px 4px 0 0 rgb(2, 247, 234);
-    background-color: #FFFFFF;
-    z-index: 100;
-}
-
-.how_to_dropdown:hover .how_to_dropdown_content {
-    display: block;
-}
-
-.how_to_dropdown_content a {
+.dropdown_content a {
     display: block;
     color: var(--main-bg-color);
     padding: 5px;
@@ -122,43 +82,9 @@
     margin-top: 20px;
 }
 
-.how_to_dropdown_content a:hover {
+.dropdown_content a:hover {
     text-decoration: underline;
 }
-
-.world_cuisine_dropdown {
-    display: inline-block;
-    position: relative;
-    top: 35px;
-}
-
-.world_cuisine_dropdown_content {
-    display: none;
-    position: absolute;
-    top: 45px;
-    width: 230px;
-    overflow: auto;
-    box-shadow: 4px 4px 0 0 rgb(2, 247, 234);
-    background-color: #FFFFFF;
-    z-index: 100;
-}
-
-.world_cuisine_dropdown:hover .world_cuisine_dropdown_content {
-    display: block;
-}
-
-.world_cuisine_dropdown_content a {
-    display: block;
-    color: var(--main-bg-color);
-    padding: 5px;
-    text-decoration: none;
-    margin-top: 20px;
-}
-
-.world_cuisine_dropdown_content a:hover {
-    text-decoration: underline;
-}
-
 
 .nav_el_news {
     margin: 60px 15px 0 15px;
